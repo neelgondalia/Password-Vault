@@ -1,0 +1,30 @@
+*************************************
+        TERMINAL COMMANDS
+*************************************
+
+To compile and run the password vault program:
+
+    to compile, type: make
+    to run, type: bin/main
+
+To run the cpp check:
+
+    type make cppcheck
+
+To clean the bin
+
+    type make clean
+
+To make doxygen documentation:
+
+    type make doxy
+
+
+*************************************
+                NOTES
+*************************************
+
+DEFAULT PASSWORD: 0000
+
+1) The hash function used for this program is based off of djb2 by dan bernstein
+2) If a data file does not exist, a new file will be opened with the default password, "0000".
